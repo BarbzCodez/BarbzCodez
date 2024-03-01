@@ -1,6 +1,11 @@
-<h1 style="text-align: center;">Barbara Guzman Romero</h1>
+---
+layout: post
+title: Barbara Guzman Romero
+---
 
-<p style="text-align: center;">(204) 390 - 1861 | [guzmanrb@outlook.com](mailto:guzmanrb@outlook.com) | [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/) | github.com/BarbzCodez</p>
+Barbara Guzman Romero
+
+(204) 390 - 1861 | [guzmanrb@outlook.com](mailto:guzmanrb@outlook.com) | [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/) | github.com/BarbzCodez
 
 ## Education
 
