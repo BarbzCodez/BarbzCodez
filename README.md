@@ -61,6 +61,14 @@ Now that your repo is cloned lets setup your resume.
 3. On the left Menu that opens, paste the resume you copied into the repo.
 4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**
    > This step is very important since this is how you tell GitHub Pages knows which file to display.
+5. Open your `index.md` file and add the following to the top of your resume:
+
+    ```md
+    ---
+        layout: cv
+        title: Barbara Guzman Romero's CV
+    ---
+    ```
 
 If done successfully, you should see `index.md` with your resume in it on your left bar:
 

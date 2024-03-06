@@ -12,17 +12,10 @@ title: Barbara Guzman Romero's CV
 
 ## Education
 
-### Bachelor of Computer Science Major (Co-op) | Mathematics Minor
+`Sept 2019 - May 2024`
 
-*University of Manitoba | Sept 2019 - May 2024*
-
+__Bachelor of Computer Science Major (Co-op) and Mathematics Minor | University of Manitoba, Canada__
 - 3.95 /4.5 GPA
-- Awards in
-  - University of Manitoba:
-    - Member of President’s Scholars Society, 2019 - 2022
-    - Advanced Placement Scholarship, 2019
-  - Department of Computer Science
-    - Dean’s Honour List, 2019 - 2022
 
 ## Work Experience
 
@@ -69,6 +62,14 @@ Fall 2022
 
 - Game developed during a hackathon.
 - Implemented in Unity and C++.
+
+## Awards
+
+- University of Manitoba:
+    - Member of President’s Scholars Society, 2019 - 2022
+    - Advanced Placement Scholarship, 2019
+- Department of Computer Science
+    - Dean’s Honour List, 2019 - 2022
 
 ## Volunteer Experiences
 
