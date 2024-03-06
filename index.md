@@ -5,23 +5,22 @@ title: Barbara Guzman Romero's CV
 
 # Barbara Guzman Romero
 
-- [guzmanrb@outlook.com](mailto:guzmanrb@outlook.com)
-- [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/)
-- [github.com/BarbzCodez](https://github.com/BarbzCodez)
-- (204) 390 - 1861
+[guzmanrb@outlook.com](mailto:guzmanrb@outlook.com) | [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/) | [github.com/BarbzCodez](https://github.com/BarbzCodez) | (204) 390 - 1861
 
 ## Education
 
 `Sept 2019 - May 2024`
 
-__Bachelor of Computer Science Major (Co-op) and Mathematics Minor | University of Manitoba, Canada__
-- 3.95 /4.5 GPA
+__Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
+
+- Mathematics Minor.
+- 3.95 /4.5 GPA.
 
 ## Work Experience
 
-### Agco Winnipeg
+`May - Aug 2023`
 
-_Software Engineer Co-op | May - Aug 2023_
+__Software Engineer Co-op__ | Agco Winnipeg
 
 - Implemented an intuitive UI using React in conjunction with Chakra UI.
 - Conducted thorough bug investigations and resolved issues efficiently.
@@ -29,9 +28,9 @@ _Software Engineer Co-op | May - Aug 2023_
 - Collaborated in team meetings to brainstorm and propose solutions.
 - Delivered comprehensive update presentations to stakeholders.
 
-### iQmetrix
+`Sept - Aug 2022`
 
-_Software Developer Co-op | Sept - Aug 2022_
+__Software Developer Co-op__ | iQmetrix
 
 - Implemented new payment types which are reflected in the reporting software’s output.
 - Investigated support tickets and brainstormed possible solutions with my team.
@@ -39,9 +38,9 @@ _Software Developer Co-op | Sept - Aug 2022_
 - Conducted code testing and gave appropriate feedback.
 - Took initiative to host a company status update to further develop my presentation skills
 
-### Ubisoft Winnipeg
+`Jan - Apr 2022`
 
-_Junior Tools Developer | Jan - Apr 2022_
+__Junior Tools Developer__ | Ubisoft Winnipeg
 
 - Applied TDD, utilizing Gherkin Syntax to implement unit and integration tests.
 - Independently learned languages such as Python, and Batch.
@@ -51,31 +50,24 @@ _Junior Tools Developer | Jan - Apr 2022_
 
 ## Projects
 
-### Spendr
+`Fall 2022`
 
-Fall 2022
+__Spendr__ | Class Project
 
 - Expense tracker app that offers comprehensive user management, budgeting tools, visual analytics, and group expense splitting functionalities.
 - Developed using the PERN Stack, incorporating Docker and GitHub.
 
-### Rob's Worst Nightmare
+`Winter 2022`
 
-- Game developed during a hackathon.
+__Rob's Worst Nightmare__ | Hackathon Game
+
 - Implemented in Unity and C++.
-
-## Awards
-
-- University of Manitoba:
-    - Member of President’s Scholars Society, 2019 - 2022
-    - Advanced Placement Scholarship, 2019
-- Department of Computer Science
-    - Dean’s Honour List, 2019 - 2022
 
 ## Volunteer Experiences
 
-### Women in Computer Science (WICS)
+`Sept 2021 - May 2024`
 
-_Peer Mentorship Program | Sept 2021 - May 2024_
+__Peer Mentorship Program__ | Women in Computer Science (WICS)
 
 Got assigned a first or second year female student from Computer Science as mentee as educational and emotional support.
 
@@ -83,12 +75,25 @@ Got assigned a first or second year female student from Computer Science as ment
 - Answer queries from my mentee in a timely manner.
 - Take it upon myself to promote the Computer Science and ensure more girls finish the career.
 
-### Classics Student Collective (CSC)
+`Oct 2023 - May 2024`
 
-_Social Media Manager | Oct 2023 - May 2024_
+__Social Media Manager__ | _Classics Student Collective (CSC)
 
 Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram](https://www.instagram.com/umclassicscollective) accounts for the CSC, ensuring consistent brand messaging.
 
 - Produced shareable content, resulting in a 25% growth in follower base across multiple platforms.
 - Streamlined content planning processes, ensuring a consistent online presence across platforms.
 - Kept an organized post into 3 columns that makes it easy to see what events are hosted by the club, the department and a fun column.
+
+## Awards
+
+`2019 - 2022`
+
+__Member of President’s Scholars Society__ | University of Manitoba
+
+`2019`
+
+__Advanced Placement Scholarship__ | University of Manitoba
+
+`2019 - 2022`
+__Dean’s Honour List__ | Department of Computer Science
