@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Barbara Guzman Romero
+layout: cv
+title: Barbara Guzman Romero's CV
 ---
 
 # Barbara Guzman Romero
