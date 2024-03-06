@@ -11,7 +11,7 @@ Before we start the project make sure to have all of the following:
 - **A Resume Formatted in Markdown**: if you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
 - **Git**: make sure you have git installed in your computer. You can check [here](#git).
 - **GitHub Account**: This is where your resume is going to be hosted. If you need help check out the [GitHub Tutorial](#github).
-- **Visual Studio Code**: This is a recommendation to edit your resume and use Git and GitHub seamlessly. You can donwload it [here]
+- **Visual Studio Code**: This is a recommendation to edit your resume and use Git and GitHub seamlessly. You can donwload it [here](#visual-studio-code-vs-code)
 
 ## Instructions
 
