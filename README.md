@@ -1,84 +1,128 @@
-# How to host your resume
+# How to Host a Resume on Github Pages
 
-One Paragraph of the project description
+![Insert gif here](/images/happy_dog.gif)
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+This is a simple guide to host a markdown resume in the GitHub Pages
 
-## Getting Started
+## Prerequisites
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+Before we start the project make sure to have all of the following:
 
-### Prerequisites
+- **A Resume Formatted in Markdown**: if you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
+- **Git**: make sure you have git installed in your computer. You can check [here](#git).
+- **GitHub Account**: This is where your resume is going to be hosted. If you need help check out the [GitHub Tutorial](#github).
+- **Visual Studio Code**: This is a recommendation to edit your resume and use Git and GitHub seamlessly. You can donwload it [here]
 
-Requirements for the software and other tools to build, test and push
+## Instructions
 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+Now that you have all the prerequisites, go to your browser and login to your github account.
 
-### Installing
+### Making a Repo for your Resume
 
-A step by step series of examples that tell you how to get a development
-environment running
+Steps to host a markdown file on github
 
-Say what the step will be
+1. Look up github.com
+2. Create an account(link)
+3. On your dashboard click on new
+4. Create a repository name
+5. Click on readme
+6. Click on create a repository
 
-    Give the example
+> add gif
 
-And repeat
+#### Cloning your Repository to Visual Studio
 
-    until finished
+In visual studio
 
-End with an example of getting some data out of the system or using it
-for a little demo
+1. Go to explorer
+2. Then click on clone repository
+3. Select a desired folder
+4. Clone the repo
 
-## Running the tests
+> add gif
 
-Explain how to run the automated tests for this system
 
-### Sample Tests
+### Uploading your resume
 
-Explain what these tests test and why
+> add gif
 
-    Give an example
+### Host your resume on GitHub Pages
 
-### Style test
+> add gif
 
-Checks if the best practices and the right coding style has been used.
+## Resources
 
-    Give an example
+### Markdown
 
-## Deployment
+- [Markdown Tutorial](https://www.markdowntutorial.com)
+- [Markdown CheatSheet](https://www.markdownguide.org/cheat-sheet/#basic-syntax)
 
-Add additional notes to deploy this on a live system
+#### Convert your Resume to Markdown
 
-## Built With
+- [PDF to Markdown](https://pdf2md.morethan.io)
+- [Word to Markdown](https://word2md.com)
 
-- [Contributor Covenant](https://www.contributor-covenant.org/) - Used for the Code of Conduct
-- [Creative Commons](https://creativecommons.org/) - Used to choose the license
+### Git
 
-## Contributing
+- [Install Git on your computer](https://git-scm.com/download/win)
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+### GitHub
 
-## Versioning
+- [Create a GitHub Account](https://github.com/signup)
+- GitHub Tutorial
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+### Visual Studio Code (VS Code)
 
-## Authors
+- [Download Visual Studio Code](https://code.visualstudio.com/download)
+- [Connect Visual Studio Code to GitHub](https://code.visualstudio.com/docs/sourcecontrol/github)
 
-- **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
+#### GitHub Pages
 
-See also the list of [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md) Creative Commons License - see the [LICENSE.md](LICENSE.md) file for details
+- Jekill Tutorial
+- Good Resume Tutorial
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code is used
-- Inspiration
-- etc.
+### Templates
+
+- The page for the theme
+- The page for template
+
+### Proof-readers
+
+- Ryan Mack
+- Eric Chu
+- Thomas McIntosh
+
+## FAQs
+
+### Why is Markdown better than word or PDF?
+
+Markdown better because:
+
+- Is easier to learn and use, even when it isnt exported
+- Widely used
+
+### Why is my resume not showing up?
+
+If your resume is not showing up I would check the following:
+
+#### Check your settings
+
+- If you just clicked on generate page, it might take some minutes for the Github to build your page.
+- Is your folder rooted in root
+
+> add gif of what a successful page should look like
+
+#### Check your actions
+
+- Have all your checks passed? You can check this by going on actions and checking that all of the `pages build and deployment` have a checkmark
+
+> add gif of what a successful page should look like
+
+#### Check your repo setup
+
+- Make sure your resume information is in a file called `index.md`.
+- Can you see the `index.md` on your git repo? If not, make sure to push all your changes to main.
+
+> add gif of what a successful page should look like

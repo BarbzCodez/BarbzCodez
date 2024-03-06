@@ -3,7 +3,7 @@ layout: post
 title: Barbara Guzman Romero
 ---
 
-Barbara Guzman Romero
+# Barbara Guzman Romero
 
 (204) 390 - 1861 | [guzmanrb@outlook.com](mailto:guzmanrb@outlook.com) | [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/) | github.com/BarbzCodez
 
