@@ -65,7 +65,7 @@ Now that your repo is cloned lets setup your resume.
 6. Under Changes, click on the plus symbol on `index.md` to stage your changes.
 7. Add a commit message like: Adding resume.
 8. Click on **Commit**.
-9. CLick on **Synch your changes to main**.
+9. Click on **Synch Changes**.
 
 You should see on your GitHub browser the`index.md` on your repo.
 
