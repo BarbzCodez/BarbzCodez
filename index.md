@@ -4,13 +4,16 @@ title: Barbara Guzman Romero's CV
 ---
 
 # Barbara Guzman Romero
+Computer Scientist
 
-[guzmanrb@outlook.com](mailto:guzmanrb@outlook.com) | [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/) | [github.com/BarbzCodez](https://github.com/BarbzCodez) | (204) 390 - 1861
+- [guzmanrb@outlook.com](mailto:guzmanrb@outlook.com)
+- [linkedin.com/in/barbaraguzmanromero](https://www.linkedin.com/in/barbaraguzmanromero/)
+- [github.com/BarbzCodez](https://github.com/BarbzCodez)
+- (204) 390 - 1861
 
 ## Education
 
 `Sept 2019 - May 2024`
-
 __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 
 - Mathematics Minor.
@@ -19,7 +22,6 @@ __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 ## Work Experience
 
 `May - Aug 2023`
-
 __Software Engineer Co-op__ | Agco Winnipeg
 
 - Implemented an intuitive UI using React in conjunction with Chakra UI.
@@ -29,7 +31,6 @@ __Software Engineer Co-op__ | Agco Winnipeg
 - Delivered comprehensive update presentations to stakeholders.
 
 `Sept - Aug 2022`
-
 __Software Developer Co-op__ | iQmetrix
 
 - Implemented new payment types which are reflected in the reporting software’s output.
@@ -39,7 +40,6 @@ __Software Developer Co-op__ | iQmetrix
 - Took initiative to host a company status update to further develop my presentation skills
 
 `Jan - Apr 2022`
-
 __Junior Tools Developer__ | Ubisoft Winnipeg
 
 - Applied TDD, utilizing Gherkin Syntax to implement unit and integration tests.
@@ -51,14 +51,12 @@ __Junior Tools Developer__ | Ubisoft Winnipeg
 ## Projects
 
 `Fall 2022`
-
 __Spendr__ | Class Project
 
 - Expense tracker app that offers comprehensive user management, budgeting tools, visual analytics, and group expense splitting functionalities.
 - Developed using the PERN Stack, incorporating Docker and GitHub.
 
 `Winter 2022`
-
 __Rob's Worst Nightmare__ | Hackathon Game
 
 - Implemented in Unity and C++.
@@ -66,7 +64,6 @@ __Rob's Worst Nightmare__ | Hackathon Game
 ## Volunteer Experiences
 
 `Sept 2021 - May 2024`
-
 __Peer Mentorship Program__ | Women in Computer Science (WICS)
 
 Got assigned a first or second year female student from Computer Science as mentee as educational and emotional support.
@@ -76,7 +73,6 @@ Got assigned a first or second year female student from Computer Science as ment
 - Take it upon myself to promote the Computer Science and ensure more girls finish the career.
 
 `Oct 2023 - May 2024`
-
 __Social Media Manager__ | _Classics Student Collective (CSC)
 
 Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram](https://www.instagram.com/umclassicscollective) accounts for the CSC, ensuring consistent brand messaging.
@@ -88,11 +84,9 @@ Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram
 ## Awards
 
 `2019 - 2022`
-
 __Member of President’s Scholars Society__ | University of Manitoba
 
 `2019`
-
 __Advanced Placement Scholarship__ | University of Manitoba
 
 `2019 - 2022`
