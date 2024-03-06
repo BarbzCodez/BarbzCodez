@@ -2,27 +2,27 @@
 
 ![Insert gif here](/images/happy_dog.gif)
 
-A simple guide to host a markdown resume in the GitHub Pages that looks like the gif!
+A simple guide to host a markdown resume in the GitHub Pages.
 
 ## Prerequisites
 
 Before we start the project make sure to have all of the following:
 
 - **A Resume Formatted in Markdown**: if you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
-- **Git**: make sure you have git installed in your computer. You can check [here](#git).
-- **GitHub Account**: This is where your resume is going to be hosted. If you need help check out the [GitHub Tutorial](#github).
-- **Visual Studio Code**: This is a recommendation to edit your resume and use Git and GitHub seamlessly. You can download it [here](#visual-studio-code-vs-code)
+- **Git**: make sure you have git installed in your computer. If you are unsure, you can download it [here](#git).
+- **GitHub Account**: This is where your resume is going to be hosted. If you need an account go to [GitHub SignUp](https://github.com/signup)
+- **Visual Studio Code**: This where tou can edit your resume and use Git and GitHub seamlessly. You can download it [here](#visual-studio-code-vs-code).
 
 ## Instructions
 
 Now that you have all the prerequisites, go to your browser and login to your github account.
 
-### Making a Repository (Repo) for your Resume
+### Making a Repository (Repo)
 
 In your browser:
 
 1. Go to [github.com](https://github.com/)
-2. On your left panel click on **Create Reository**
+2. On your left panel click on **Create Repository**
 3. Create a repository with name in this format: `YourGitHubUSername.github.io`
    - In the example below, my username is: _BarbTutorial_, so the name of my repository si going to be `BarbTutorial.github.io`
 4. Click on readme
@@ -34,18 +34,19 @@ You should see:
 
 #### Cloning your Repo to Visual Studio
 
-> Before starting, make sure you have Git and [Visual Studio Code](https://code.visualstudio.com/download) downloaded. As well as [connecting your github account to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
+> Before starting, make sure you have [Git]((https://git-scm.com/download/win)) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
+> As well as [connecting your GitHub account to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 
-In visual studio
+In Visual Studio Code
 
 1. Open a new window
-2. Click on **Explorer**
-3. Click on **Clone Repository**
-4. Click on **Clone From GitHub**
-5. Select the a place where you are going to store your copy of the repo
-   - I recommend having a dedicated folder called **GitHub Projects** under the **Local Disk C:** where I store all my cloned repos.
-6. Click on the one that says `YourGitHubName/YourGitHubName.github.io`
+2. On the left nav bar, select the **Explorer**
+3. On the left menu, Click on **Clone Repository**
+4. On the top bar, Click on **Clone From GitHub**
+5. Click on the one that says `YourGitHubName/YourGitHubName.github.io`
    - In the example is `BarbTutorial/BarbTutorial.github.io`
+6. Select the a place where you are going to store your copy of the repo
+   - I recommend having a dedicated folder called **GitHub Projects** under the **Local Disk C:** where I store all my cloned repos.
 
 You should see:
 
@@ -55,23 +56,26 @@ You should see:
 
 Now that your repo is cloned lets setup your resume.
 
-1. On the file Explorer, find the file with your resume and copy it.
-2. On Visual Studio Code, click the **Open Editor**.
-3. Paste the resume you copied into the repo.
+1. On the File Explorer, find the file with your resume and copy it.
+2. Open VS Code, on the left Nav Bar, select **Open Editor**.
+3. On the left Menu that opens, paste the resume you copied into the repo.
 4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**
    > This step is very important since this is how you tell GitHub Pages knows which file to display.
-5. Go to **Source Control**
-6. Under Changes, click on the plus symbol on `index.md` to stage your changes
-7. Add a commit message like: Adding resume
-8. Click on Commit and then push
+5. On the left Nav Bar, click to **Source Control**
+6. Under Changes, click on the plus symbol on `index.md` to stage your changes.
+7. Add a commit message like: Adding resume.
+8. Click on **Commit**.
+9. CLick on **Synch your changes to main**.
 
-If done successfully, you should see `index.md` on your repo in GitHub on your browser.
+You should see on your GitHub browser the`index.md` on your repo.
 
 > add gif
 
 ### Adding a Theme
 
-Now that you have a resume uplaoded
+Now that you have a resume uploaded, lets add a theme so that it looks like a resume when you host it.
+
+For this example Im going to be using
 
 1. On the file Explorer, find the file with your resume and copy it.
 2. On Visual Studio Code, click the **Open Editor**.
@@ -110,8 +114,8 @@ You can check if your time is done by:
 
 If have 
 
-Congratulations! You hav
-e
+Congratulations! You have a resume hosted on the web :)
+
 ## Resources
 
 ### Markdown
