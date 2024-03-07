@@ -2,7 +2,7 @@
 
 ![An Example of the final resume hosted](/images/1_example_resume.gif)
 
-A beginner's guide to host a themed markdown resume in GitHub Pages.
+According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make the content beautiful, discoverable and searchable", this will guide you to host a themed markdown resume using GitHub Pages to achieve Etter's goal.
 
 ## Prerequisites
 
@@ -17,14 +17,14 @@ Before we start the project make sure to have all of the following:
 - **GitHub Account**: This is where your resume is going to be hosted.
   - If you need an account go to [GitHub SignUp](https://github.com/signup).
   - If you are new to GitHub checkout the [GitHub Resources](#github) for a quick start.
-- **Visual Studio Code**: This where you can edit your resume and use Git and GitHub seamlessly.
+- **Visual Studio Code**: This where you can edit your resume and use both Git and GitHub seamlessly.
   - You can download it [here](#visual-studio-code-vs-code).
 
 ---
 
 ## Instructions
 
-Now that you have all the prerequisites. Lets begin!
+Now that you have all the prerequisites, lets begin!
 
 ### Making a Repository (Repo)
 
@@ -33,11 +33,11 @@ In your browser, login to your Github account.
 1. Go to [github.com](https://github.com/).
 2. On your left panel click on **Create Repository**.
 3. Create a repository with name in this format: `YourGitHubUsername.github.io`.
-   - In the example below, my username is: _BarbTutorial_, so the name of my repository is going to be `BarbTutorial.github.io`.
+   - In the example below, my username is: _BarbTutorial_, so the name of my repo is going to be `BarbTutorial.github.io`.
 4. Click on the checkmark that says **Add a Readme**
 5. Click on **Create a Repository**.
 
-You should see repo with a readme.
+Once this is done, you will see your repo with a readme.
 
 ![Empty repository](/images/2_create_repo.gif)
 
@@ -45,22 +45,22 @@ You should see repo with a readme.
 
 ### Cloning your Repo to Visual Studio Code
 
-> Before starting, make sure you have [Git]((https://git-scm.com/download/win)) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
+> Before starting, make sure you have [Git](https://git-scm.com/download/win) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
 > As well as [connecting your GitHub account to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 
 In Visual Studio Code.
 
-1. Open a new window.
-2. On the left nav bar, select the **Explorer**.
+1. Look for Visual Studio CodeOpen a new window.
+2. On the left nav bar, click on **Explorer**.
 3. On the left menu, click on **Clone Repository**.
 4. On the top bar, click on **Clone From GitHub**.
-5. Select the one named `YourGitHubName/YourGitHubName.github.io`.
-   - Following the example below, the repo is called `BarbTutorial/BarbTutorial.github.io`.
-6. Select a folder where you are going to store a copy of the repo.
+5. Click on the one named `YourGitHubName/YourGitHubName.github.io`.
+   - In the example below, the repo is called `BarbTutorial/BarbTutorial.github.io`.
+6. Click on the folder where you are going to store a copy of the repo.
    - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repos.
 7. If you get a popup window, select  **Open**.
 
-You should see on your left menu an **Open Editor** with and your repo name underneath.
+By the end you should have cloned your repo to your machine.
 
 ![Empty repository in VSCode](/images/3_cloning_repo_to_VSCode.gif)
 
@@ -68,12 +68,12 @@ You should see on your left menu an **Open Editor** with and your repo name unde
 
 ### Uploading your Resume
 
-Now that your repo is cloned let's add your resume.
+Now that your repo is cloned, let's add your resume.
 
 1. On the File Explorer, find the file with your markdown resume and keep it to one side of the screen.
 2. Open VS Code, on the left nav abr, have the **Open Editor** bar open.
 3. Drag your resume from the file explorer to the open editor in VS Code.
-4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**.
+4. Change the name of your markdown resume to `index.md` by right clicking the file and then clicking on the option **Rename...**.
    > This step is very important since this is how you tell GitHub Pages knows which file to display.
 5. Open your `index.md` file and add the following to the top of your resume:
 
@@ -94,12 +94,12 @@ If done successfully, you should see `index.md` with your resume in it on your l
 
 ### Adding a Theme
 
-Now that you have a resume uploaded, lets add a theme so that it looks like a resume when you host it.
+Now that you have a resume uploaded, lets add a theme so that it looks like a resume on your website.
 
 1. Go to [https://github.com/elipapa/markdown-cv](https://github.com/elipapa/markdown-cv)
-2. Select **Code > Download ZIP**.
+2. Click on **Code > Download ZIP**.
 3. Click on **Extract All** to unzip the files.
-4. Open the extracted folder and drag your repo the file: `_config.yml` and the folders `_layouts` and `media`.
+4. Open the extracted folder and drag the following files into your repo: `_config.yml` and the folders `_layouts` and `media`.
    > When copying your folders, if you get a popup asking if you want to copy the media or folder, select **Copy Folder** and it would be added to your side bar.
 
 If done successfully, you should see the following on your Explorer:
@@ -118,9 +118,9 @@ If done successfully, you should see the following on your Explorer:
 2. Under **Changes** you should see all the files you added, click on the plus symbol on **Changes** to stage your changes.
 3. Add a descriptive commit message like: _Adding resume and theme_.
 4. Click on **Commit**.
-5. Click on **Synch Changes**.
+5. Click on **Sync Changes**.
 
-If done successfully, you should see the changes made on visual studio code on the Repo with the format **YourGitHubUsername/YourGitHubUsername.github.io** on your Browser.
+If done successfully, you should see the changes made in visual studio code on the Repo which you can find using **YourGitHubUsername/YourGitHubUsername.github.io** on your Browser.
 
 ![commit changes](/images/6_commit_your_changes.gif)
 
@@ -175,36 +175,22 @@ Your website is going to be available in **https://YourGitHubUsername.github.io*
 
 - [Resume Theme Template](https://github.com/elipapa/markdown-cv)
 
-## Author
-
-- Barbara Guzman Romero
-
-## Acknowledgments
-
-- Eliseo Papa for the Resume Template.
-
-### Proof-readers
-
-- Ryan Mack.
-- Eric Chu.
-- Thomas McIntosh.
-
 ## FAQs
 
 ### Why is Markdown better than word or PDF?
 
-Markdown better than word or PDF because:
+Markdown is better than word or PDF because:
 
 - You can have one markdown file, apply a theme to make it into a website, document or even a presentation with one source of truth.
 - Easy to read even as plain text, so no need to download anything to see the content.
 
 ### Why is my resume not showing up?
 
-If your resume is not showing up I would check the following:
+If your resume is not showing up I would recommend the following:
 
 #### Check your settings
 
-- If you just clicked on generate page; give it a minute. It takes Github Pages some time to build your page. If it says that your site is live.
+- If you just clicked on generate page; give it a minute. It takes Github Pages some time to build your page.
 - Your Branch should say `main/root`
 
 ![successful settings](/images/FAQ1_settings.gif)
@@ -246,3 +232,18 @@ Correct:
 `Sept 2019 - May 2024`
 __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 ```
+
+## Author
+
+- Barbara Guzman Romero
+
+## Acknowledgments
+
+- Eliseo Papa for the Resume Template.
+- [Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) as a foundation for writing a Readme.
+
+### Proof-readers
+
+- Ryan Mack.
+- Eric Chu.
+- Thomas McIntosh.
