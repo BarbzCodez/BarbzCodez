@@ -1,4 +1,4 @@
-# How to Host a Resume on Github Pages
+# Hosting a Resume on GitHub Pages
 
 ![An Example of the final resume hosted](/images/1_example_resume.gif)
 
@@ -12,7 +12,7 @@ Before we start the project make sure to have all of the following:
   - If you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
   - To make the process more smoothly, use the sample resume on [index.md](/index.md) as template, because the theme we are going to be using works with that template.
   - For more information checkout the [template section](#template) on the resources.
-- **Git**: This is how you can make changes from your laptop and send it to GitHub
+- **Git**: This is how you can make changes locally and push them to GitHub.
   - You can download it [here](https://git-scm.com/download/win).
 - **GitHub Account**: This is where your resume is going to be hosted.
   - If you need an account go to [GitHub SignUp](https://github.com/signup).
@@ -28,14 +28,14 @@ Now that you have all the prerequisites. Lets begin!
 
 ### Making a Repository (Repo)
 
-In your browser that has your github logged in.
+In your browser, login to your Github account.
 
 1. Go to [github.com](https://github.com/).
 2. On your left panel click on **Create Repository**.
 3. Create a repository with name in this format: `YourGitHubUsername.github.io`.
    - In the example below, my username is: _BarbTutorial_, so the name of my repository is going to be `BarbTutorial.github.io`.
 4. Click on the checkmark that says **Add a Readme**
-5. Click on **Create a repository**.
+5. Click on **Create a Repository**.
 
 You should see repo with a readme.
 
@@ -43,7 +43,7 @@ You should see repo with a readme.
 
 ---
 
-#### Cloning your Repo to Visual Studio Code
+### Cloning your Repo to Visual Studio Code
 
 > Before starting, make sure you have [Git]((https://git-scm.com/download/win)) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
 > As well as [connecting your GitHub account to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
@@ -52,15 +52,15 @@ In Visual Studio Code.
 
 1. Open a new window.
 2. On the left nav bar, select the **Explorer**.
-3. On the left menu, Click on **Clone Repository**.
-4. On the top bar, Click on **Clone From GitHub**.
+3. On the left menu, click on **Clone Repository**.
+4. On the top bar, click on **Clone From GitHub**.
 5. Select the one named `YourGitHubName/YourGitHubName.github.io`.
    - Following the example below, the repo is called `BarbTutorial/BarbTutorial.github.io`.
-6. Select the a place where you are going to store your copy of the repo.
-   - I recommend having a dedicated folder called **GitHub Projects** under the **Local Disk C:** where I store all my cloned repos.
+6. Select a folder where you are going to store a copy of the repo.
+   - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repos.
 7. If you get a popup window, select  **Open**.
 
-You should see on your left menu an **Open Editor** with and a your repo name underneath.
+You should see on your left menu an **Open Editor** with and your repo name underneath.
 
 ![Empty repository in VSCode](/images/3_cloning_repo_to_VSCode.gif)
 
@@ -68,12 +68,12 @@ You should see on your left menu an **Open Editor** with and a your repo name un
 
 ### Uploading your Resume
 
-Now that your repo is cloned lets add your resume.
+Now that your repo is cloned let's add your resume.
 
 1. On the File Explorer, find the file with your markdown resume and keep it to one side of the screen.
-2. Open VS Code, on the left Nav Bar, have the **Open Editor** bar open.
-3. Drag your Resume from the file explorer to the open editor in VS Code.
-4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**
+2. Open VS Code, on the left nav abr, have the **Open Editor** bar open.
+3. Drag your resume from the file explorer to the open editor in VS Code.
+4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**.
    > This step is very important since this is how you tell GitHub Pages knows which file to display.
 5. Open your `index.md` file and add the following to the top of your resume:
 
@@ -126,13 +126,13 @@ If done successfully, you should see the changes made on visual studio code on t
 
 > If you need more help with commits in Visual Studio Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
-### Host your Resume on GitHub Pages
+### Hosting your Resume on GitHub Pages
 
 Now that you have a resume to display, go to your repo with the format **YourGitHubUsername/YourGitHubUsername.github.io**
 
 1. On the top **Nav Bar**, Go to **Settings**.
 2. On the **Side Bar**, Go to **Pages**.
-3. Click On the **Visit Site**.
+3. Click on the **Visit Site**.
 
 Congratulations! You have a resume hosted on the web :)
 
@@ -197,7 +197,6 @@ Markdown better than word or PDF because:
 
 - You can have one markdown file, apply a theme to make it into a website, document or even a presentation with one source of truth.
 - Easy to read even as plain text, so no need to download anything to see the content.
-- Its an industry standard, Whatsapp, Slack, Discord, Reddit are some examples of companies that use it by default on their products.
 
 ### Why is my resume not showing up?
 
@@ -205,8 +204,8 @@ If your resume is not showing up I would check the following:
 
 #### Check your settings
 
-- If you just clicked on generate page, give it a minute, it takes Github Pages some time to build your page. If it says that your site is live.
-- Your Branch should say main.root
+- If you just clicked on generate page; give it a minute. It takes Github Pages some time to build your page. If it says that your site is live.
+- Your Branch should say `main/root`
 
 ![successful settings](/images/FAQ1_settings.gif)
 
@@ -225,13 +224,13 @@ If your resume is not showing up I would check the following:
 
 ### Why my resume isn't formatted properly?
 
-A possible reason your resume isn't formatted properly, is because you missed a step or aren't following the .css rules.
+A possible reason your resume isn't formatted properly, is because you are not using the `.css` format.
 
-This is one example of what you might be looking at:
+For example, this happened to me while formatting my resume:
 
 ![A Screenshot of the sample resume with some text showing incorrectly](/images/badlyFormatted.png)
 
-The problem was that there cant be a space between the date and the title.
+The problem was that there was a space between the date and the title.
 
 Incorrect:
 
