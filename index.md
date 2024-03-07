@@ -66,24 +66,23 @@ __Rob's Worst Nightmare__ | Hackathon Game
 `Sept 2021 - May 2024`
 __Peer Mentorship Program__ | Women in Computer Science (WICS)
 
-Got assigned a first or second year female student from Computer Science as mentee as educational and emotional support.
-
-- Organized meetings that which vary from study sessions, or just going for a cafe.
+- Got assigned a first year female student from Computer Science as mentee as educational and emotional support.
+- Organized meetings with first year female student to give educational support.
 - Answer queries from my mentee in a timely manner.
 - Take it upon myself to promote the Computer Science and ensure more girls finish the career.
 
 `Oct 2023 - May 2024`
-__Social Media Manager__ | _Classics Student Collective (CSC)
+__Social Media Manager__ | Classics Student Collective (CSC)
 
-Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram](https://www.instagram.com/umclassicscollective) accounts for the CSC, ensuring consistent brand messaging.
+- Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram](https://www.instagram.com/umclassicscollective) accounts for the CSC, ensuring consistent brand messaging.
 
 - Produced shareable content, resulting in a 25% growth in follower base across multiple platforms.
 - Streamlined content planning processes, ensuring a consistent online presence across platforms.
-- Kept an organized post into 3 columns that makes it easy to see what events are hosted by the club, the department and a fun column.
 
 ## Awards
 
 `2019 - 2022`
+
 __Member of President’s Scholars Society__ | University of Manitoba
 
 `2019`
