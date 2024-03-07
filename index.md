@@ -82,7 +82,6 @@ __Social Media Manager__ | Classics Student Collective (CSC)
 ## Awards
 
 `2019 - 2022`
-
 __Member of President’s Scholars Society__ | University of Manitoba
 
 `2019`
