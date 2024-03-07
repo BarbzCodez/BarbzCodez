@@ -30,17 +30,14 @@ In your browser:
 3. Create a repository with name in this format: `YourGitHubUSername.github.io`.
    - In the example below, my username is: _BarbTutorial_, so the name of my repository is going to be `BarbTutorial.github.io`.
 4. Click on **Create a repository**.
+5. Click on Add a readme
+6. Click commit changes
+   - you can add more detaile but for demonstration you only need the readme file
+7. Click commit changes again on the popup.
 
-You should see a page with a quick start available and a code to copy:
+You should see repo with a readme
 
 ![Empty repository](/images/2_making_a_repo.gif)
-
-Continuing to add a readme,
-
-click on readme
-you can add more detailes but for demonstration you only need something in the readme
-then click commit changes
-and then commit changes again
 
 #### Cloning your Repo to Visual Studio
 
@@ -85,7 +82,7 @@ Now that your repo is cloned lets setup your resume.
 
 If done successfully, you should see `index.md` with your resume in it on your left bar:
 
-![your resume with named index](/images/4_uploading_your_resumegif)
+![your resume with named index](/images/4_uploading_your_resume.gif)
 
 ### Adding a Theme
 
@@ -103,7 +100,7 @@ If done successfully, you should see the following on your Explorer:
 - `_layouts`
 - `media`
 
-![adding a theme to you](/images/5.adding_a_theme.gif)
+![adding a theme to your repo](/images/5_adding_a_theme.gif)
 
 ### Committing your changes
 
@@ -129,9 +126,9 @@ Now that you have a resume to display, go to your repo with the format **YourGit
 
 Congratulations! You have a resume hosted on the web :)
 
-![commit changes](/images/7_host_your_resume.gif)
+![see your resume on the web](/images/7_host_your_resume.gif)
 
-> You dont always ened to click visit site, to see your website go to **https://YourGitHubUSername.github.io**. Replacing YourGitHubUSername with your GitHub Username.
+> You don'tnecessaryy need to click visit site, to see your website go to **https://YourGitHubUSername.github.io**. Replacing YourGitHubUSername with your GitHub Username.
 > In the example is: [https://barbtutorial.github.io/](https://barbtutorial.github.io/).
 
 ## Resources
@@ -199,20 +196,20 @@ If your resume is not showing up I would check the following:
 - If you just clicked on generate page, it might take some minutes for the Github to build your page.
 - Is your folder rooted in root
 
-> add gif of what a successful page should look like
+![successful settings](/images/FAQ1_settings.png)
 
 #### Check your actions
 
 - Have all your checks passed? You can check this by going on actions and checking that all of the `pages build and deployment` have a checkmark
 
-> add gif of what a successful page should look like
+![successful actions](images/FAQ2_actions.png)
 
 #### Check your repo setup
 
 - Make sure your resume information is in a file called `index.md`.
 - Can you see the `index.md` on your git repo? If not, make sure to push all your changes to main.
 
-> add gif of what a successful page should look like
+![successful actions](images/FAQ3_repo.png)
 
 ### Why does my `pages build and deployment` have a yellow dot?
 
