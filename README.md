@@ -184,7 +184,6 @@ Markdown better than word or PDF because:
 
 - Is easier to learn and use.
 - Easy to read even when it is just plain text, so without the theme.
-- Widely used in the industry.
 - You can personalize it as much or as little as you want and have a clean product.
 
 ### Why is my resume not showing up?
@@ -211,11 +210,7 @@ If your resume is not showing up I would check the following:
 
 ![successful actions](images/FAQ3_repo.png)
 
-### Why does my `pages build and deployment` have a yellow dot?
-
-If it has a yellow dot it means it needs more time. You can click on it to see the the progress of the build.
-
-### Why does my Resume isn't formatted properly?
+### Why my resume isn't formatted properly?
 
 A possible reason your resume isn't formatted properly, is because you missed a step or aren't following the .css rules
 
