@@ -35,6 +35,13 @@ You should see a page with a quick start available and a code to copy:
 
 ![Empty repository](/images/2_making_a_repo.gif)
 
+Continuing to add a readme,
+
+click on readme
+you can add more detailes but for demonstration you only need something in the readme
+then click commit changes
+and then commit changes again
+
 #### Cloning your Repo to Visual Studio
 
 > Before starting, make sure you have [Git]((https://git-scm.com/download/win)) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
@@ -106,9 +113,9 @@ If done successfully, you should see the following on your Explorer:
 4. Click on **Commit**.
 5. Click on **Synch Changes**.
 
-If done successfully, you should see the changes made on visual studio code on the your GitHub Browser.
+If done successfully, you should see the changes made on visual studio code on the Repo with the format **YourGitHubUSername/YourGitHubUSername.github.io** on your Browser.
 
-> add gif
+![commit changes](/images/6_commit_your_changes.gif)
 
 > If you need more help with commits in Visual Studio Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
@@ -118,28 +125,14 @@ Now that you have a resume to display, go to your repo with the format **YourGit
 
 1. On the top **Nav Bar**, Go to **Settings**.
 2. On the **Side Bar**, Go to **Pages**.
-3. Click Stuff.
-
-In the end you should see this popup b
-
-> add gif
-
-### View your resume
-
-Now give GitHub Pages some time to build your resume.
-
-You can check if your time is done by:
-
-1. On the Nav Bar, go to Actions.
-2. Check the top `pages build and deployment` have a checkmark.
-
-To see your website go to **https://YourGitHubUSername.github.io**.
-
-In the example is: [https://barbzcodez.github.io](https://barbzcodez.github.io)
-
-> add gif
+3. Click On the **Visit Site**.
 
 Congratulations! You have a resume hosted on the web :)
+
+![commit changes](/images/7_host_your_resume.gif)
+
+> You dont always ened to click visit site, to see your website go to **https://YourGitHubUSername.github.io**. Replacing YourGitHubUSername with your GitHub Username.
+> In the example is: [https://barbtutorial.github.io/](https://barbtutorial.github.io/).
 
 ## Resources
 
