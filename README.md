@@ -9,7 +9,8 @@ A beginner's guide to host a markdown resume with a theme in the GitHub Pages.
 Before we start the project make sure to have all of the following:
 
 - **A Resume Formatted in Markdown**: if you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
-  - To make the process more smoothly, checkout the [index.md](/index.md) and try to follow that format with your resume. Its inspired by [this format](https://github.com/elipapa/markdown-cv/blob/master/index.md?plain=1).
+  - To make the process more smoothly, checkout the sample resume on [index.md](/index.md) create your resume using that template.
+  - For more information checkout the [template section](#template) on the resources.
 - **Git**: make sure you have git installed in your computer. If you are unsure, you can download it [here](#git).
 - **GitHub Account**: This is where your resume is going to be hosted.
   - If you need an account go to [GitHub SignUp](https://github.com/signup).
@@ -32,7 +33,7 @@ In your browser:
 
 You should see a page with a quick start available and a code to copy:
 
-![Empty repository](/images/1_example_resume.gif)
+![Empty repository](/images/2_making_a_repo.gif)
 
 #### Cloning your Repo to Visual Studio
 
@@ -49,18 +50,19 @@ In Visual Studio Code
    - Following the example below, the repo is called `BarbTutorial/BarbTutorial.github.io`
 6. Select the a place where you are going to store your copy of the repo
    - I recommend having a dedicated folder called **GitHub Projects** under the **Local Disk C:** where I store all my cloned repos.
+7. Click on **Open** with the pop window
 
-You should see:
+You should see on your left menu an **Open Editor** with and a your repo name underneath
 
-> add gif
+![Empty repository in VSCode](/images/3_cloning_repo_to_VSCode.gif)
 
 ### Uploading your resume
 
 Now that your repo is cloned lets setup your resume.
 
-1. On the File Explorer, find the file with your resume and copy it.
-2. Open VS Code, on the left Nav Bar, select **Open Editor**.
-3. On the left Menu that opens, paste the resume you copied into the repo.
+1. On the File Explorer, find the file with your markdown resume and keep it to one side of the screen.
+2. Open VS Code, on the left Nav Bar, have the **Open Editor** bar open.
+3. Drag your Resume from the file explorer to the open editor in VS Code.
 4. Change the name of your markdown resume to `index.md` by right clicking the file and then on the option **Rename...**
    > This step is very important since this is how you tell GitHub Pages knows which file to display.
 5. Open your `index.md` file and add the following to the top of your resume:
@@ -76,7 +78,7 @@ Now that your repo is cloned lets setup your resume.
 
 If done successfully, you should see `index.md` with your resume in it on your left bar:
 
-> add gif
+![your resume with named index](/images/4_uploading_your_resumegif)
 
 ### Adding a Theme
 
@@ -84,21 +86,22 @@ Now that you have a resume uploaded, lets add a theme so that it looks like a re
 
 1. Go to [https://github.com/elipapa/markdown-cv](https://github.com/elipapa/markdown-cv)
 2. Select **Code > Download ZIP**.
-3. Unzip The file.
-4. Open the unzipped folder and copy to your repo the file: `_config.yml` and the folders `_layouts` and `media`.
+3. Click on **Extract All** to unzip the files.
+4. Open the extracted folder and drag your repo the file: `_config.yml` and the folders `_layouts` and `media`.
+   > When copying your folders, if you get a popup asking if you want to copy the media or folder, select **Copy Folder** and it would be added to your side bar.
 
-If done successfully, you should see the following on your left bar:
+If done successfully, you should see the following on your Explorer:
 
 - `_config.yml`
 - `_layouts`
-- `media`.
+- `media`
 
-> add gif
+![adding a theme to you](/images/5.adding_a_theme.gif)
 
 ### Committing your changes
 
-1. On the left Nav Bar, click to **Source Control**
-2. Under Changes, click on the plus symbol on **Changes** to stage your changes.
+1. On the left Nav Bar, click on **Source Control**
+2. Under **Changes** you should see all the files you added, click on the plus symbol on **Changes** to stage your changes.
 3. Add a descriptive commit message like: _Adding resume and theme_.
 4. Click on **Commit**.
 5. Click on **Synch Changes**.
@@ -117,7 +120,7 @@ Now that you have a resume to display, go to your repo with the format **YourGit
 2. On the **Side Bar**, Go to **Pages**.
 3. Click Stuff.
 
-In the end you should see:
+In the end you should see this popup b
 
 > add gif
 
