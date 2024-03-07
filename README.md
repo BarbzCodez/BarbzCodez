@@ -20,6 +20,8 @@ Before we start the project make sure to have all of the following:
 - **Visual Studio Code**: This where you can edit your resume and use Git and GitHub seamlessly.
   - You can download it [here](#visual-studio-code-vs-code).
 
+---
+
 ## Instructions
 
 Now that you have all the prerequisites. Lets begin!
@@ -38,6 +40,8 @@ In your browser that has your github logged in.
 You should see repo with a readme.
 
 ![Empty repository](/images/2_create_repo.gif)
+
+---
 
 #### Cloning your Repo to Visual Studio Code
 
@@ -59,6 +63,8 @@ In Visual Studio Code.
 You should see on your left menu an **Open Editor** with and a your repo name underneath.
 
 ![Empty repository in VSCode](/images/3_cloning_repo_to_VSCode.gif)
+
+---
 
 ### Uploading your Resume
 
@@ -84,6 +90,8 @@ If done successfully, you should see `index.md` with your resume in it on your l
 
 ![your resume with named index](/images/4_uploading_your_resume.gif)
 
+---
+
 ### Adding a Theme
 
 Now that you have a resume uploaded, lets add a theme so that it looks like a resume when you host it.
@@ -101,6 +109,8 @@ If done successfully, you should see the following on your Explorer:
 - `media`
 
 ![adding a theme to your repo](/images/5_adding_a_theme.gif)
+
+---
 
 ### Committing your Changes
 
@@ -131,6 +141,8 @@ Congratulations! You have a resume hosted on the web :)
 Your website is going to be available in **https://YourGitHubUsername.github.io**. Replacing YourGitHubUsername with your GitHub Username.
 
 > In the example is: [https://barbtutorial.github.io/](https://barbtutorial.github.io/).
+
+---
 
 ## Resources
 
@@ -165,7 +177,7 @@ Your website is going to be available in **https://YourGitHubUsername.github.io*
 
 ## Author
 
-Barbara Guzman Romero
+- Barbara Guzman Romero
 
 ## Acknowledgments
 
