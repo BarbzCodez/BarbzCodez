@@ -1,6 +1,6 @@
 # Hosting a Resume on GitHub Pages
 
-According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make content beautiful, discoverable and searchable", this will help you achieve this goal by hosting a themed markdown resume using GitHub Pages.
+According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make content beautiful, discoverable and searchable", this guide will help you achieve Etter's goal by hosting a themed markdown resume using GitHub Pages.
 
 ![An Example of the final resume hosted](/images/1_example_resume.gif)
 
