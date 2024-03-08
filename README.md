@@ -1,8 +1,22 @@
 # Hosting a Resume on GitHub Pages
 
+## Purpose
+
 According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make content beautiful, discoverable and searchable", this guide will help you achieve Etter's goal by hosting a themed markdown resume using GitHub Pages.
 
 ![An Example of the final resume hosted](/images/1_example_resume.gif)
+
+---
+
+## Etter's Principles
+
+Before starting, I would like to to explain how Etter's principles reflect on this project. I will list them and explain:
+
+- _Use a lightweight markup_: We want content that is readable without the need to export it. We will be achieving this by using Markdown to write your resume as is very simple to learn and use.
+- _Use distributed version control_: We want to one version of truth with a story of how we get there. we'll be achieving that by using GitHub, which is easy to start using and widely used.
+- _Make static websites_: Etter likes static websites because they are simple and usually free to use. We are using GitHub Pages to host our static website because is integrated to GitHub.
+
+---
 
 ## Prerequisites
 
@@ -16,7 +30,6 @@ Before we start the project make sure to have all of the following:
   - You can download it [here](https://git-scm.com/download/win).
 - **GitHub Account**: This is where your resume is going to be hosted.
   - If you need an account go to [GitHub SignUp](https://github.com/signup).
-  - If you are new to GitHub checkout the [GitHub Resources](#github) for a quick start.
 - **Visual Studio Code**: This where you can edit your resume and use both Git and GitHub seamlessly.
   - You can download it [here](#visual-studio-code-vs-code).
 
