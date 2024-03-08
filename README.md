@@ -2,7 +2,7 @@
 
 ## Purpose
 
-According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make content beautiful, discoverable and searchable", this guide will help you achieve Etter's goal by hosting a themed markdown resume using GitHub Pages.
+According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make content beautiful, discoverable and searchable." This guide will help you achieve Etter's goal by hosting a themed markdown resume using GitHub Pages.
 
 ![An Example of the final resume hosted](/images/1_example_resume.gif)
 
@@ -12,21 +12,21 @@ According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Mo
 
 Before starting, I would like to to explain how Etter's principles reflect on this project. I will list them and explain:
 
-- _Use a lightweight markup_: We want content that is readable without the need to export it. We will be achieving this by using Markdown to write your resume as is very simple to learn and use.
-- _Use distributed version control_: We want to one version of truth with a story of how we get there. we'll be achieving that by using GitHub, which is easy to start using and widely used.
-- _Make static websites_: Etter likes static websites because they are simple and usually free to use. We are using GitHub Pages to host our static website because is integrated to GitHub.
+- _Use a lightweight markup_: We want content that is readable without the need to export it. We will be achieving this by using Markdown to write your resume as it is very simple to learn and use.
+- _Use distributed version control_: We want to one version of truth with a history of how we got there. we'll be achieving that by using GitHub, which is easy to start using and widely used.
+- _Make static websites_: Etter likes static websites because they are simple and usually free to use. We are using GitHub Pages to host our static website because is integrated with GitHub.
 
 ---
 
 ## Prerequisites
 
-Before we start the project make sure to have all of the following:
+Before we start the project make sure to have the following:
 
 - **A Resume Formatted in Markdown**: This is the resume that is going to be shown.
   - If you already have a resume in PDF or word document checkout the [convertors listed](#convert-your-resume-to-markdown).
-  - To make the process more smoothly, use the sample resume on [index.md](/index.md) as template, because the theme we are going to be using works with that template.
+  - Start with the sample resume on [index.md](/index.md) as template.
   - For more information checkout the [template section](#template) on the resources.
-- **Git**: This is how you can make changes locally and push them to GitHub.
+- **Git**: This is where you can make changes locally and push them to GitHub.
   - You can download it [here](https://git-scm.com/download/win).
 - **GitHub Account**: This is where your resume is going to be hosted.
   - If you need an account go to [GitHub SignUp](https://github.com/signup).
@@ -37,7 +37,7 @@ Before we start the project make sure to have all of the following:
 
 ## Instructions
 
-Now that you have all the prerequisites, lets begin!
+Now that you have everything, lets begin!
 
 ### Making a Repository
 
@@ -46,11 +46,11 @@ In your browser, login to your Github account.
 1. Go to [github.com](https://github.com/).
 2. On your left panel click on **Create Repository**.
 3. Create a repository with name in this format: `YourGitHubUsername.github.io`.
-   - In the example below, my username is: _BarbTutorial_, so the name of my repository is going to be `BarbTutorial.github.io`.
-4. Click on the checkmark that says **Add a Readme**
+   - In the example below, my username is: _BarbTutorial_, so my repository will be called `BarbTutorial.github.io`.
+4. Checkmark the **Add a Readme** box.
 5. Click on **Create a Repository**.
 
-Once this is done, you will see your repository `YourGitHubUsername.github.io` with a readme.
+After, you will see your repository `YourGitHubUsername.github.io` with a readme.
 
 ![Empty repository](/images/2_create_repo.gif)
 
@@ -67,7 +67,7 @@ Open a VS Code.
 2. On the left menu, click on **Clone Repository**.
 3. On the top bar, click on **Clone From GitHub**.
 4. Click on the one named `YourGitHubName/YourGitHubName.github.io`.
-   - In the example below, the repository is called `BarbTutorial/BarbTutorial.github.io`.
+   - In this example, the repository is called `BarbTutorial/BarbTutorial.github.io`.
 5. Click on the folder where you are going to store a copy of the repository.
    - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repositories.
 6. If you get a popup window, click on  **Open**.
@@ -80,9 +80,9 @@ By the end you should be able to see your repository in VS Code.
 
 ### Uploading your Resume
 
-Now that your repository is cloned, let's add your resume.
+Now let's add your resume.
 
-1. Open your **File Explorer**, find your markdown resume file and keep it to one side of the screen.
+1. Open **File Explorer**, find your markdown resume file and keep it to one side of the screen.
 2. Open VS Code, on the left nav bar, have the **Open Editor** bar open.
 3. Drag your resume from the **File Explorer** to the open editor in **VS Code**.
 4. Change the name of your markdown resume to `index.md` by right clicking the file and then clicking on the option **Rename...**.
@@ -96,7 +96,7 @@ Now that your repository is cloned, let's add your resume.
     ---
     ```
 
-6. Change the `Your Name's CV` to your name or an appropriate title for your resume.
+6. Change the `Your Name's CV` to your name.
 
 If done successfully, you should see `index.md` with your resume in it on your left bar:
 
@@ -106,13 +106,13 @@ If done successfully, you should see `index.md` with your resume in it on your l
 
 ### Adding a Theme
 
-Now that you have a resume uploaded, lets add a theme so that it looks like a resume on your website.
+Now that you've uploaded a resume, add a theme so that it looks like a resume on your website.
 
 1. Go to [https://github.com/elipapa/markdown-cv](https://github.com/elipapa/markdown-cv)
 2. Click on **Code > Download ZIP**.
 3. Click on **Extract All** to unzip the files.
 4. Open the extracted folder and drag the following files into your repository: `_config.yml` and the folders `_layouts` and `media`.
-   > When copying your folders, if you get a popup asking if you want to copy the media or folder, click on **Copy Folder** and it would be added to your side bar.
+   > If you get a popup asking if you want to copy the media or folder, click  **Copy Folder** and it would be added to your side bar.
 
 If done successfully, you should see the following on your Explorer:
 
@@ -132,25 +132,25 @@ If done successfully, you should see the following on your Explorer:
 4. Click on **Commit**.
 5. Click on **Sync Changes**.
 
-If done successfully, you should see the changes made in VS Code on the Repo which you can find using **YourGitHubUsername/YourGitHubUsername.github.io** on your Browser.
+If done successfully, then the changes made in VS Code should appear in the Repo which you can find in your browser using **YourGitHubUsername/YourGitHubUsername.github.io**.
 
 ![commit changes](/images/6_commit_your_changes.gif)
 
-> If you need more help with commits in VS Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
+> If you need help with commits in VS Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
 ### Hosting your Resume on GitHub Pages
 
 Now that you have a resume to display, go to your repository with the format: **YourGitHubUsername/YourGitHubUsername.github.io**
 
-1. On the top **Nav Bar**, Go to **Settings**.
-2. On the **Side Bar**, Go to **Pages**.
+1. On the top Nav Bar, Go to **Settings**.
+2. On the Side Bar, Go to **Pages**.
 3. Click on the **Visit Site**.
 
-Congratulations! You have a resume hosted on the web :)
+Congratulations! Your resume is now on the web :)
 
 ![see your resume on the web](/images/7_host_your_resume.gif)
 
-Your website is going to be available in **https://YourGitHubUsername.github.io**. Replacing YourGitHubUsername with your GitHub Username.
+Access your website at **https://YourGitHubUsername.github.io**. Replace YourGitHubUsername with your GitHub Username.
 
 > In the example is: [https://barbtutorial.github.io/](https://barbtutorial.github.io/).
 
@@ -220,38 +220,13 @@ If your resume is not showing up I would recommend the following:
 
 ![successful actions](images/FAQ3_repo.png)
 
-### Why my resume isn't formatted properly?
-
-A possible reason your resume isn't formatted properly, is because you are not using the `.css` format.
-
-For example, I had this problem while formatting my resume. There was a space between the date and the title.
-
-Incorrect:
-
-```md
-`Sept 2019 - May 2024`
-
-__Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
-```
-
-![A Screenshot of the sample resume with some text showing incorrectly](/images/FAQ4_bad_formatted.png)
-
-Correct:
-
-```md
-`Sept 2019 - May 2024`
-__Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
-```
-
-![properly formatted](/images/FAQ5_good_formatted.png)
-
 ## Author
 
-- Barbara Guzman Romero
+Barbara Guzman Romero
 
 ## Acknowledgments
 
-- [Eliseo Papa Resume Template](https://github.com/elipapa/markdown-cv)
+- [Eliseo Papa Resume Template](https://github.com/elipapa/markdown-cv).
 - [Etter's Modern Technical Writing Book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
 ### Proof-readers
