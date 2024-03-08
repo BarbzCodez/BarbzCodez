@@ -75,7 +75,6 @@ __Peer Mentorship Program__ | Women in Computer Science (WICS)
 __Social Media Manager__ | Classics Student Collective (CSC)
 
 - Managed [Facebook](https://www.facebook.com/umclassicscollective) and [Instagram](https://www.instagram.com/umclassicscollective) accounts for the CSC, ensuring consistent brand messaging.
-
 - Produced shareable content, resulting in a 25% growth in follower base across multiple platforms.
 - Streamlined content planning processes, ensuring a consistent online presence across platforms.
 

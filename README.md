@@ -1,8 +1,8 @@
 # Hosting a Resume on GitHub Pages
 
-![An Example of the final resume hosted](/images/1_example_resume.gif)
-
 According to Andrew Etter in [Modern Technical Writing](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) we want to "make the content beautiful, discoverable and searchable", this will guide you to host a themed markdown resume using GitHub Pages to achieve Etter's goal.
+
+![An Example of the final resume hosted](/images/1_example_resume.gif)
 
 ## Prerequisites
 
@@ -26,41 +26,40 @@ Before we start the project make sure to have all of the following:
 
 Now that you have all the prerequisites, lets begin!
 
-### Making a Repository (Repo)
+### Making a Repository
 
 In your browser, login to your Github account.
 
 1. Go to [github.com](https://github.com/).
 2. On your left panel click on **Create Repository**.
 3. Create a repository with name in this format: `YourGitHubUsername.github.io`.
-   - In the example below, my username is: _BarbTutorial_, so the name of my repo is going to be `BarbTutorial.github.io`.
+   - In the example below, my username is: _BarbTutorial_, so the name of my repository is going to be `BarbTutorial.github.io`.
 4. Click on the checkmark that says **Add a Readme**
 5. Click on **Create a Repository**.
 
-Once this is done, you will see your repo with a readme.
+Once this is done, you will see your repository `YourGitHubUsername.github.io` with a readme.
 
 ![Empty repository](/images/2_create_repo.gif)
 
 ---
 
-### Cloning your Repo to Visual Studio Code
+### Cloning your repository to Visual Studio Code (VS Code)
 
-> Before starting, make sure you have [Git](https://git-scm.com/download/win) and [Visual Studio Code](https://code.visualstudio.com/download) downloaded.
-> As well as [connecting your GitHub account to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
+> Before starting, make sure you have [Git](https://git-scm.com/download/win) and [VS Code](https://code.visualstudio.com/download) downloaded.
+> As well as [connecting your GitHub account to VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 
-In Visual Studio Code.
+Open a VS Code.
 
-1. Look for Visual Studio CodeOpen a new window.
-2. On the left nav bar, click on **Explorer**.
-3. On the left menu, click on **Clone Repository**.
-4. On the top bar, click on **Clone From GitHub**.
-5. Click on the one named `YourGitHubName/YourGitHubName.github.io`.
-   - In the example below, the repo is called `BarbTutorial/BarbTutorial.github.io`.
-6. Click on the folder where you are going to store a copy of the repo.
-   - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repos.
-7. If you get a popup window, select  **Open**.
+1. On the left nav bar, click on **Explorer**.
+2. On the left menu, click on **Clone Repository**.
+3. On the top bar, click on **Clone From GitHub**.
+4. Click on the one named `YourGitHubName/YourGitHubName.github.io`.
+   - In the example below, the repository is called `BarbTutorial/BarbTutorial.github.io`.
+5. Click on the folder where you are going to store a copy of the repository.
+   - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repositories.
+6. If you get a popup window, select  **Open**.
 
-By the end you should have cloned your repo to your machine.
+By the end you should be able to see your repository in VS Code.
 
 ![Empty repository in VSCode](/images/3_cloning_repo_to_VSCode.gif)
 
@@ -68,13 +67,13 @@ By the end you should have cloned your repo to your machine.
 
 ### Uploading your Resume
 
-Now that your repo is cloned, let's add your resume.
+Now that your repository is cloned, let's add your resume.
 
-1. On the File Explorer, find the file with your markdown resume and keep it to one side of the screen.
-2. Open VS Code, on the left nav abr, have the **Open Editor** bar open.
-3. Drag your resume from the file explorer to the open editor in VS Code.
+1. Open your **File Explorer**, find your markdown resume file and keep it to one side of the screen.
+2. Open VS Code, on the left nav bar, have the **Open Editor** bar open.
+3. Drag your resume from the **File Explorer** to the open editor in **VS Code**.
 4. Change the name of your markdown resume to `index.md` by right clicking the file and then clicking on the option **Rename...**.
-   > This step is very important since this is how you tell GitHub Pages knows which file to display.
+   > This step is very important since this is how you tell GitHub Pages which file to display.
 5. Open your `index.md` file and add the following to the top of your resume:
 
     ```md
@@ -99,7 +98,7 @@ Now that you have a resume uploaded, lets add a theme so that it looks like a re
 1. Go to [https://github.com/elipapa/markdown-cv](https://github.com/elipapa/markdown-cv)
 2. Click on **Code > Download ZIP**.
 3. Click on **Extract All** to unzip the files.
-4. Open the extracted folder and drag the following files into your repo: `_config.yml` and the folders `_layouts` and `media`.
+4. Open the extracted folder and drag the following files into your repository: `_config.yml` and the folders `_layouts` and `media`.
    > When copying your folders, if you get a popup asking if you want to copy the media or folder, select **Copy Folder** and it would be added to your side bar.
 
 If done successfully, you should see the following on your Explorer:
@@ -108,7 +107,7 @@ If done successfully, you should see the following on your Explorer:
 - `_layouts`
 - `media`
 
-![adding a theme to your repo](/images/5_adding_a_theme.gif)
+![adding a theme to your repository](/images/5_adding_a_theme.gif)
 
 ---
 
@@ -120,15 +119,15 @@ If done successfully, you should see the following on your Explorer:
 4. Click on **Commit**.
 5. Click on **Sync Changes**.
 
-If done successfully, you should see the changes made in visual studio code on the Repo which you can find using **YourGitHubUsername/YourGitHubUsername.github.io** on your Browser.
+If done successfully, you should see the changes made in VS Code on the Repo which you can find using **YourGitHubUsername/YourGitHubUsername.github.io** on your Browser.
 
 ![commit changes](/images/6_commit_your_changes.gif)
 
-> If you need more help with commits in Visual Studio Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
+> If you need more help with commits in VS Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
 ### Hosting your Resume on GitHub Pages
 
-Now that you have a resume to display, go to your repo with the format **YourGitHubUsername/YourGitHubUsername.github.io**
+Now that you have a resume to display, go to your repository with the format: **YourGitHubUsername/YourGitHubUsername.github.io**
 
 1. On the top **Nav Bar**, Go to **Settings**.
 2. On the **Side Bar**, Go to **Pages**.
@@ -168,7 +167,7 @@ Your website is going to be available in **https://YourGitHubUsername.github.io*
 ### Visual Studio Code (VS Code)
 
 - [Download Visual Studio Code](https://code.visualstudio.com/download)
-- [Connect Visual Studio Code to GitHub](https://code.visualstudio.com/docs/sourcecontrol/github)
+- [Connect GitHub to Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 - [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
 ### Template
@@ -201,10 +200,10 @@ If your resume is not showing up I would recommend the following:
 
 ![successful actions](images/FAQ2_actions.png)
 
-#### Check your repo setup
+#### Check your repository setup
 
 - Make sure your resume information is in a file called `index.md`.
-- Can you see the `index.md` on your git repo? If not, make sure to push all your changes to main.
+- Can you see the `index.md` on your git repository? If not, make sure to push all your changes to main.
 
 ![successful actions](images/FAQ3_repo.png)
 
@@ -239,11 +238,10 @@ __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 
 ## Acknowledgments
 
-- Eliseo Papa for the Resume Template.
-- [Andrew Etter](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) as a foundation for writing a Readme.
+- [Eliseo Papa Resume Template](https://github.com/elipapa/markdown-cv)
+- [Etter's Modern Technical Writing Book](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
 ### Proof-readers
 
-- Ryan Mack.
-- Eric Chu.
-- Thomas McIntosh.
+- Isabelle Anderson-Gregoire
+- Thomas McIntosh
