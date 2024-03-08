@@ -138,6 +138,8 @@ If done successfully, then the changes made in VS Code should appear in the Repo
 
 > If you need help with commits in VS Code here is a [Commit Guide](https://www.youtube.com/watch?v=E6ADS2k8oNQ)
 
+---
+
 ### Hosting your Resume on GitHub Pages
 
 Now that you have a resume to display, go to your repository with the format: **YourGitHubUsername/YourGitHubUsername.github.io**
