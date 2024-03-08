@@ -57,7 +57,7 @@ Open a VS Code.
    - In the example below, the repository is called `BarbTutorial/BarbTutorial.github.io`.
 5. Click on the folder where you are going to store a copy of the repository.
    - I recommend having a dedicated folder called **GitHub Projects** under **Local Disk C:** to store all your cloned repositories.
-6. If you get a popup window, select  **Open**.
+6. If you get a popup window, click on  **Open**.
 
 By the end you should be able to see your repository in VS Code.
 
@@ -99,7 +99,7 @@ Now that you have a resume uploaded, lets add a theme so that it looks like a re
 2. Click on **Code > Download ZIP**.
 3. Click on **Extract All** to unzip the files.
 4. Open the extracted folder and drag the following files into your repository: `_config.yml` and the folders `_layouts` and `media`.
-   > When copying your folders, if you get a popup asking if you want to copy the media or folder, select **Copy Folder** and it would be added to your side bar.
+   > When copying your folders, if you get a popup asking if you want to copy the media or folder, click on **Copy Folder** and it would be added to your side bar.
 
 If done successfully, you should see the following on your Explorer:
 
@@ -211,11 +211,7 @@ If your resume is not showing up I would recommend the following:
 
 A possible reason your resume isn't formatted properly, is because you are not using the `.css` format.
 
-For example, this happened to me while formatting my resume:
-
-![A Screenshot of the sample resume with some text showing incorrectly](/images/badlyFormatted.png)
-
-The problem was that there was a space between the date and the title.
+For example, I had this problem while formatting my resume. There was a space between the date and the title.
 
 Incorrect:
 
@@ -225,12 +221,16 @@ Incorrect:
 __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 ```
 
+![A Screenshot of the sample resume with some text showing incorrectly](/images/FAQ4_bad_formatted.png)
+
 Correct:
 
 ```md
 `Sept 2019 - May 2024`
 __Bachelor of Computer Science Major (Co-op)__ | University of Manitoba, Canada
 ```
+
+![properly formatted](/images/FAQ5_good_formatted.png)
 
 ## Author
 
